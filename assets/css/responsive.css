@@ -1,0 +1,57 @@
+/*===============HEADER===============*/
+
+@media (max-width: 1024px) {
+    .header__burger::before {
+        width: calc(40px + (4 + 4 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .header__burger::after {
+        width: calc(37px + (4 + 4 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .header__burger span {
+        width: calc(48px + (4 + 4 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .header__logo {
+        font-size: calc(28px + (2 + 2 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .header__phone {
+        font-size: calc(15px + (2 + 2 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .order {
+        width: calc(180px + (45 + 45 * 0.7)*((100vw - 1024px) / 1440));
+        font-size: calc(15px + (2 + 2 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .header__menu {
+        font-size: calc(55px + (5 + 5 * 0.7)*((100vw - 1024px) / 1440));
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        min-height: calc(70px + (41 + 41 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .header__burger::before {
+        width: calc(20px + (24 + 24 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .header__burger::after {
+        width: calc(17px + (24 + 24 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .header__burger span {
+        width: calc(28px + (24 + 24 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .header__logo {
+        font-size: calc(16px + (14 + 14 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .header__left {
+        width: 100%;
+    }
+    .header__phone-mobile {
+        display: block;
+    }
+    .header__right {
+        display: none;
+    }
+    .header__menu {
+        top: calc(68px + (41 + 41 * 0.7)*((100vw - 320px) / 1440));
+        font-size: calc(45px + (15 + 15 * 0.7)*((100vw - 320px) / 1440));
+    }
+}

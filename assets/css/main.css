@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: local("Gilroy-Bold"), url(../fonts/Gilroy-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: local("Gilroy-ExtraBold"), url(../fonts/Gilroy-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"), url(../fonts/Gilroy-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: local("Gilroy-Regular"), url(../fonts/Gilroy-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: local("Gilroy-SemiBold"), url(../fonts/Gilroy-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+/*==========ШРИФТЫ СТАРТ==========*/
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-ExtraBold', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif;
+font-family: 'Gilroy-SemiBold', sans-serif; */
+
+/*==========ШРИФТЫ КОНЕЦ==========*/
+html,body{
+	height: 100%;
+	width: 100%;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 17px;
+}
+.container {
+    max-width: 1112px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.button {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 17px;
+    line-height: 117.6%;
+    color: #fff;
+    background-color: #EC3D08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease;
+}
+.button:hover {
+    background: #CB3001;
+}
