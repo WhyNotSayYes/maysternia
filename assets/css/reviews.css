@@ -1,0 +1,101 @@
+.main__reviews {
+}
+.reviews {
+    margin-top: -75px;
+    margin-bottom: 75px;
+}
+.reviews__slider {
+    /* display: flex; */
+    text-align:center;
+    margin: 0 auto;
+    max-width: 1162px;
+    padding: 0 25px;
+    position: relative;
+    z-index: 9;
+}
+.reviews__item {
+    background: #EC3D08;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    /* max-width: 920px; */
+    max-width: calc(820px + 100*(100vw / 1440));
+    min-height: 510px;
+    color: #FFFFFF;
+}
+.reviews__text {
+    max-width: 545px;
+    margin-bottom: 60px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 30px;
+    line-height: 116.67%;
+}
+.reviews__person {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/*===Slider===*/
+.slick-list {
+	overflow: hidden;
+}
+.slick-track {
+	display: flex;
+}
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    width: 245px;
+    margin: 0 auto;
+}
+.slick-dots li {
+    width: 65px;
+    height: 2px;
+    background: #D9D9D9;
+    transition: .5s ease;
+}
+.slick-dots li.slick-active {
+    background-color: #EC3D08;
+}
+.slick-dots li button {
+    display: none;
+}
+.reviews__slider .slick-prev {
+    left: 50px;
+    top: 50%;
+    background-image: url(../img/arrow-prev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    width: 18px;
+    height: 44.5px;
+    transform: translate(50%, -50%);
+}
+.reviews__slider .slick-next {
+    right: 50px;
+    top: 50%;
+    background-image: url(../img/arrow-next.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 0;
+    width: 18px;
+    height: 44.5px;
+    transform: translate(-50%, -50%);
+}
+button.slick-prev,
+button.slick-next {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    font-size: 10px;
+    z-index: 1000;
+}

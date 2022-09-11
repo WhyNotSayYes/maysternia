@@ -2,7 +2,7 @@
 }
 .welcome {
     background: linear-gradient(180deg, #EBEBEB 0%, #F5F5F5 100%);
-    margin-top: 109px;
+    margin-top: calc(70px + 39*(100vw / 1440));
 }
 .welcome__container {
     display: flex;
@@ -11,20 +11,20 @@
     z-index: 2;
 }
 .welcome__text-block {
-    margin-top: 188px;
+    margin-top: calc(118px + 70*(100vw / 1440));
     position: relative;
     z-index: 2;
 }
 .welcome__title {
     max-width: 460px;
     font-family: 'Gilroy-ExtraBold', sans-serif;
-    font-size: 70px;
+    font-size: calc(64px + 6*(100vw / 1440));
     line-height: 122.86%;
     letter-spacing: 1px;
 }
 .welcome__subtitle {
     font-family: 'Gilroy-Medium', sans-serif;
-    font-size: 30px;
+    font-size: calc(24px + 6*(100vw / 1440));
     line-height: 116.67%;
     margin-top: 8px;
 }
@@ -62,8 +62,8 @@
 .square-2 {
     top: 11.5%;
     left: 12.2%;
-    width: 52px;
-    height: 52px;
+    width: calc(40px + 12*(100vw / 1440));
+    height: calc(40px + 12*(100vw / 1440));
     border: 1px solid #C6C6C6;
     transform: rotate(36deg);
 }
@@ -119,4 +119,11 @@
 .square-5,
 .square-7 {
     animation: rotation-4 20s linear infinite;
+}
+
+.button-margin {
+    margin-top: 40px;
+}
+.button.button-margin {
+    display: none;
 }
