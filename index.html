@@ -11,44 +11,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&family=Montserrat:wght@400;500;600&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container container">
-            <div class="header__left">
-                <div class="header__burger">
-                    <span></span>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__left">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__menu_list container">
+                            <li class="header__menu_item"><a href="#" class="header__menu_link"><span>В</span>ідгуки</a></li>
+                            <li class="header__menu_item"><a href="#" class="header__menu_link"><span>К</span>омпетенції</a></li>
+                            <li class="header__menu_item"><a href="#" class="header__menu_link"><span>Х</span>то ми?</a></li>
+                            <li class="header__menu_item"><a href="#" class="header__menu_link"><span>Д</span>ля кого?</a></li>
+                            <li class="header__menu_item"><a href="#" class="header__menu_link"><span>Р</span>озроблено</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__logo">
+                        <span><</span> Майстерня <span>></span>
+                    </div>
+                    <div class="header__phone-mobile">
+                        <img src="assets/img/phone.png" alt="0955815470">
+                    </div>
                 </div>
-                <div class="header__logo">
-                    <span><</span> Майстерня <span>></span>
-                </div>
-                <div class="header__phone-mobile">
-                    <img src="assets/img/phone.png" alt="0955815470">
+                <div class="header__right">
+                    <div class="header__phone">
+                        095 581-54-70
+                    </div>
+                    <button class="button order">
+                        Розрахувати вартість
+                    </button>
                 </div>
             </div>
-            <div class="header__right">
-                <div class="header__phone">
-                    095 581-54-70
+        </header>
+        <main class="main">
+            <section class="main__welcome welcome">
+                <div class="welcome__container container ">
+                    <div class="welcome__text-block">
+                        <h1 class="welcome__title">
+                            САЙТИ<br> <span>ДЛЯ БІЗНЕСУ</span>
+                        </h1>
+                        <p class="welcome__subtitle">
+                            <span>Ми</span> не лідери, тому <span>працюємо завзятіше</span>
+                        </p>
+                    </div>
+                    <div class="welcome__image-block">
+                        <div class="welcome__image">
+                            <img src="assets/img/prototypes.png" alt="prototypes" class="welcome__image_img">
+                        </div>
+                    </div>
+                    <div class="square-1"></div>
+                    <div class="square-2"></div>
+                    <div class="square-3"></div>
+                    <div class="square-4"></div>
+                    <div class="square-5"></div>
+                    <div class="square-6"></div>
+                    <div class="square-7"></div>
                 </div>
-                <button class="button order">
-                    Розрахувати вартість
-                </button>
-            </div>
-            <nav class="header__menu">
-                <ul class="header__menu_list container">
-                    <li class="header__menu_item"><a href="#" class="header__menu_link"><span>В</span>ідгуки</a></li>
-                    <li class="header__menu_item"><a href="#" class="header__menu_link"><span>К</span>омпетенції</a></li>
-                    <li class="header__menu_item"><a href="#" class="header__menu_link"><span>Х</span>то ми?</a></li>
-                    <li class="header__menu_item"><a href="#" class="header__menu_link"><span>Д</span>ля кого?</a></li>
-                    <li class="header__menu_item"><a href="#" class="header__menu_link"><span>Р</span>озроблено</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
+            </section>
+        </main>
+        <footer class="footer">
 
-    </main>
-    <footer class="footer">
-
-    </footer>
+        </footer>
+    </div>
 
     <script src="assets/js/burger.js"></script>
 </body>
