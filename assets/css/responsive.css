@@ -137,8 +137,8 @@
     }
 }
 @media (max-width: 767px) {
-    button.slick-prev,
-    button.slick-next {
-        display: none;
+    .reviews__slider .slick-prev,
+    .reviews__slider .slick-next {
+        display: none !important;
     }
 }
