@@ -47,6 +47,9 @@
     .header__phone-mobile {
         display: block;
     }
+    .order {
+        font-size: 15px;
+    }
     .header__right {
         display: none;
     }
@@ -80,6 +83,9 @@
     .welcome__subtitle {
         font-size: calc(18px + (12 + 12 * 0.7)*((100vw - 320px) / 1440));
     }
+    .welcome__image_img {
+        width: calc(400px + 162*(100vw / 768));
+    }
     .square-2 {
         width: calc(40px + (12 + 12 * 0.7)*((100vw - 320px) / 1440));
         height: calc(40px + (12 + 12 * 0.7)*((100vw - 320px) / 1440));
@@ -95,9 +101,44 @@
     }
 }
 
+@media (max-width: 320px) {
+    .welcome__image_img {
+        width: calc(400px + (162 + 162 * 0.7)*((100vw - 320px) / 1440));
+    }
+}
 /*===============REVIEWS===============*/
 @media (max-width: 1024px) {
     .reviews__item {
         max-width: calc(820px + (100 + 100 * 0.7)*((100vw - 1024px) / 1440));
+        min-height: calc(410px + (100 + 100 * 0.7)*((100vw - 1024px) / 1440));
+        padding-top: calc(90px + (50 + 50 * 0.7)*((100vw - 1024px) / 1440));
+        padding-bottom: calc(90px + (50 + 50 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .reviews__text {
+        font-size: calc(24px + (6 + 6 * 0.7)*((100vw - 1024px) / 1440));
+    }
+    .reviews__person {
+        font-size: calc(17px + (3 + 3 * 0.7)*((100vw - 1024px) / 1440));
+    }
+}
+@media (max-width: 768px) {
+    .slick-dots {
+        width: calc(135px + (110 + 110 * 0.7)*((100vw - 320px) / 1440));
+        padding-top: calc(30px + (30 + 30 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .slick-dots li {
+        width: calc(35px + (30 + 30 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .reviews__text {
+        font-size: calc(18px + (12 + 12 * 0.7)*((100vw - 320px) / 1440));
+    }
+    .reviews__person {
+        font-size: calc(14px + (6 + 6 * 0.7)*((100vw - 320px) / 1440));
+    }
+}
+@media (max-width: 767px) {
+    button.slick-prev,
+    button.slick-next {
+        display: none;
     }
 }
