@@ -4,7 +4,8 @@
     background: #EC3D08;
     position: relative;
     z-index: 1;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
+    padding-top: 70px;
     margin-bottom: 170px;
     margin-top: calc(100px + 70*(100vw / 1440));
     color: #fff;
