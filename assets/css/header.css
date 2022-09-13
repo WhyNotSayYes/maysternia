@@ -95,11 +95,6 @@
     padding: 0 10px;
     font-size: calc(15px + 2*(100vw / 1440));
 }
-.order {
-    width: calc(180px + 45*(100vw / 1440));
-    font-size: calc(15px + 2*(100vw / 1440));
-    height: 44px;
-}
 .header__menu {
     position: fixed;
     left: 0;

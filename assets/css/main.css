@@ -77,6 +77,11 @@ body.lock {
 .button:hover {
     background: #CB3001;
 }
+.order {
+    width: calc(180px + 45*(100vw / 1440));
+    font-size: calc(15px + 2*(100vw / 1440));
+    height: 44px;
+}
 h2 {
     font-family: 'Gilroy-ExtraBold', sans-serif;
 }

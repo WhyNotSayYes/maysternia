@@ -49,14 +49,12 @@
 }
 .services__items {
     display: flex;
-    /* justify-content: space-between; */
     margin-right: -15px;
     margin-left: -15px;
     margin-top: 55px;
 }
 .services__item {
     padding: 0 15px;
-    /* max-width: 255px; */
     flex: 0 1 25%;
 }
 .services__item-title {
@@ -82,7 +80,6 @@
     display: inline-block;
     height: 12px;
     width: 12px;
-    /* margin-right: 12px; */
     position: absolute;
     left: -24px;
     top: 3px;
