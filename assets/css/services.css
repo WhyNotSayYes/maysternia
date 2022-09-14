@@ -31,21 +31,21 @@
 .services__container {
 }
 .services__title-repeat {
-    font-family: 'Gilroy-Bold', sans-serif;
+    /* font-family: 'Gilroy-Bold', sans-serif;
     font-size: calc(100px + 20*(100vw / 1440));
     line-height: 120.8%;
     color: #000;
     text-align: center;
     -webkit-text-stroke: 1px #B7B7B7;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 .services__title {
-    font-size: calc(45px + 5*(100vw / 1440));
+    /* font-size: calc(45px + 5*(100vw / 1440));
     line-height: 122%;
-    text-align: center;
+    text-align: center; */
 }
 .services__content {
-    margin-top: -55px;
+    /* margin-top: -55px; */
 }
 .services__items {
     display: flex;
