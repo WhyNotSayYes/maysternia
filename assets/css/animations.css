@@ -66,3 +66,28 @@
         transform: rotate(435deg);
     }
 }
+
+@keyframes rotation-5 {
+    0% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(375deg);
+    }
+}
+@keyframes rotation-6 {
+    0% {
+        transform: rotate(75deg);
+    }
+    100% {
+        transform: rotate(435deg);
+    }
+}
+@keyframes rotation-7 {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(372deg);
+    }
+}

@@ -77,6 +77,9 @@ input {
 }
 .connect__image_img {
 }
+.connect-button {
+    margin: 0 auto;
+}
 .connect__square-1,
 .connect__square-2,
 .connect__square-3,
@@ -94,7 +97,7 @@ input {
     background: #EC3D08;
     top: 35%;
     left: 44%;
-    
+    transform: rotate(15deg);
 }
 .connect__square-2 {
     width: 52px;
@@ -102,6 +105,7 @@ input {
     border: 1px solid #C6C6C6;
     top: 27%;
     left: 57%;
+    transform: rotate(75deg);
 }
 .connect__square-3 {
     width: 21px;
@@ -109,6 +113,7 @@ input {
     border: 1px solid #C6C6C6;
     top: 33.5%;
     left: 90%;
+    transform: rotate(15deg);
 }
 .connect__square-4 {
     width: 52px;
@@ -116,6 +121,7 @@ input {
     border: 1px solid #C6C6C6;
     top: 55%;
     left: 45%;
+    transform: rotate(7deg);
 }
 .connect__square-5 {
     width: 52px;
@@ -123,6 +129,7 @@ input {
     border: 1px solid #C6C6C6;
     top: 49%;
     left: 95%;
+    transform: rotate(75deg);
 }
 .connect__square-6 {
     width: 43px;
@@ -130,6 +137,7 @@ input {
     border: 1px solid #C6C6C6;
     top: 75%;
     left: 36%;
+    transform: rotate(15deg);
 }
 .connect__square-7 {
     width: 23px;
@@ -137,6 +145,7 @@ input {
     border: 1px solid #C6C6C6;
     top: 85%;
     left: 58%;
+    transform: rotate(7deg);
 }
 .connect__square-8 {
     width: 34px;
@@ -144,4 +153,22 @@ input {
     border: 1px solid #C6C6C6;
     top: 83%;
     left: 93%;
+    transform: rotate(75deg);
 }
+.connect__square-1,
+.connect__square-3,
+.connect__square-6 {
+    transform: rotate(15deg);
+    animation: rotation-5 20s linear infinite;
+}
+.connect__square-2,
+.connect__square-5,
+.connect__square-8 {
+    transform: rotate(75deg);
+    animation: rotation-6 20s linear infinite;
+}
+.connect__square-4,
+.connect__square-7 {
+    transform: rotate(7deg);
+    animation: rotation-7 20s linear infinite;
+} 
