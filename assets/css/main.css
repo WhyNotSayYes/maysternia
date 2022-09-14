@@ -85,11 +85,9 @@ body.lock {
 h2 {
     font-family: 'Gilroy-ExtraBold', sans-serif;
 }
-h3 {
-
-}
-h4 {
-
+h6 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    line-height: 120%;
 }
 .title {
     font-size: calc(45px + 5*(100vw / 1440));
