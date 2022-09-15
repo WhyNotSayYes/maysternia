@@ -63,12 +63,16 @@ body.lock {
     margin: 0 auto;
     padding: 0 25px;
 }
+a.button,
+a.order {
+    color: #fff;
+}
 .button {
     font-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 17px;
     line-height: 117.6%;
-    color: #fff;
     background-color: #EC3D08;
+    color: #fff;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

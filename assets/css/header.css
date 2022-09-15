@@ -80,6 +80,10 @@
     justify-content: space-between;
     width: 35%;
 }
+a.header__logo,
+a.header__phone {
+    color: #000;
+}
 .header__logo {
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: calc(28px + 2*(100vw / 1440));;
@@ -94,6 +98,9 @@
 .header__phone {
     padding: 0 10px;
     font-size: calc(15px + 2*(100vw / 1440));
+}
+a.header__menu_link {
+    color:#000;
 }
 .header__menu {
     position: fixed;
