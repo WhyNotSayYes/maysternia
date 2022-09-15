@@ -40,6 +40,9 @@ font-family: 'Gilroy-Regular', sans-serif;
 font-family: 'Gilroy-SemiBold', sans-serif; */
 
 /*==========ШРИФТЫ КОНЕЦ==========*/
+html {
+    scroll-padding-top: calc(70px + 41*(100vw / 1440));
+}
 html,body{
 	height: 100%;
 	width: 100%;

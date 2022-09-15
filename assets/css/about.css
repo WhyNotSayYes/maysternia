@@ -11,27 +11,14 @@
     justify-content: space-between;
 }
 .about__text {
-    /* flex: 0 1 50%; */
     padding-right: 15px;
     max-width: 540px;
 }
 .about__title-repeat {
-    /* font-family: 'Gilroy-Bold', sans-serif;
-    font-size: calc(100px + 20*(100vw / 1440));
-    line-height: 120.8%;
-    color: #000;
-    text-align: center;
-    -webkit-text-stroke: 1px #B7B7B7;
-    -webkit-text-fill-color: transparent;
-    white-space: nowrap; */
 }
 .about__text-content {
-    /* margin-top: -55px; */
 }
 .about__title {
-    /* font-size: calc(45px + 5*(100vw / 1440));
-    line-height: 122%;
-    text-align: center; */
     margin-bottom: 35px;
 }
 .about__text-content_text {
@@ -48,7 +35,8 @@
     display: flex;
 }
 .about__item:not(:last-child) {
-    margin-bottom: calc(35px + 40*(100vw / 1440));
+    /* margin-bottom: calc(35px + 40*(100vw / 1440)); */
+    margin-bottom: 30px;
 }
 .about__item-left {
     padding-right: 25px;

@@ -8,7 +8,7 @@
 }
 .p-page__title-repeat {
     font-family: 'Gilroy-Bold', sans-serif;
-    font-size: 70px;
+    font-size: calc(50px + 20*(100vw / 1440));
     line-height: 120.8%;
     color: #000;
     -webkit-text-stroke: 1px #B7B7B7;
@@ -19,15 +19,15 @@
     margin-top: -50px;
 }
 .p-page__title {
-    font-size: 50px;
+    font-size: calc(45px + 5*(100vw / 1440));
     line-height: 120%;
     font-family: 'Gilroy-Bold', sans-serif;
-    margin-left: 55px;
+    margin-left: calc(15px + 40*(100vw / 1440));
 }
 .p-page__project-name {
     font-family: 'Gilroy-Bold', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: calc(35px + 5*(100vw / 1440));
     line-height: 120%;
     margin-top: 45px;
     margin-bottom: 40px;
@@ -37,13 +37,16 @@
     text-align: center;
     position: relative;
     z-index: 9;
+    max-width: 840px;
+    margin: 0 auto;
 }
 .p-page__slider-item {
 }
 .p-page__slider-item_img {
+    width: 100%;
 }
 .p-page__slider .slick-prev {
-    left: 50px;
+    left: -5%;
     top: 50%;
     background-image: url(../img/arrow-prev.png);
     background-repeat: no-repeat;
@@ -54,7 +57,7 @@
     transform: translate(50%, -50%);
 }
 .p-page__slider .slick-next {
-    right: 50px;
+    right: -5%;
     top: 50%;
     background-image: url(../img/arrow-next.png);
     background-repeat: no-repeat;
@@ -68,25 +71,36 @@
 }
 .p-page__objective {
 }
-.p-objective {
-    margin-bottom: 45px;
+.p-objective,
+.p-result {
+    margin-bottom: calc(35px + 10*(100vw / 1440));
 }
 .p-objective__title,
 .p-result__title {
-    font-size: 30px;
+    font-size: calc(24px + 6*(100vw / 1440));
     color: #EC3D08;
     margin-bottom: 10px;
 }
-.p-objective__list {
+.p-objective__list, 
+.p-result__list {
+    font-size: calc(15px + 2*(100vw / 1440));
+    position: relative;
+    margin-left: 24px;
+}
+.p-objective__list::before, 
+.p-result__list::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    left: -24px;
+    top: 3px;
+    background-color: #EC3D08;
 }
 .p-objective__item {
 }
 .p-page__result {
-}
-.p-result {
-    margin-bottom: 45px;
-}
-.p-result__list {
 }
 .p-result__item {
 }
