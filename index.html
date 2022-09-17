@@ -361,7 +361,7 @@
                                 <div class="select__title">
                                     Що Вас цікавить?
                                 </div>
-                                <div class="select__wrapper">
+                                <!-- <div class="select__wrapper">
                                     <select name="select" class="connect__input-services">
                                         <option value="1">Сайт "Під ключ"</option>
                                         <option value="2">Веб-дизайн</option>
@@ -369,8 +369,23 @@
                                         <option value="4">Тех.підтримка</option>
                                         <option value="5">Співпраця</option>
                                     </select>
+                                </div> -->
+
+                                <div class="dropdown__wrapper">
+                                    <button type="button" class="dropdown__button">
+                                        Сайт "Під ключ"
+                                    </button>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__item" data-value="Сайт 'Під ключ'">Сайт "Під ключ"</li>
+                                        <li class="dropdown__item" data-value="Веб-дизайн">Веб-дизайн</li>
+                                        <li class="dropdown__item" data-value="Розробка">Розробка</li>
+                                        <li class="dropdown__item" data-value="Тех.підтримка">Тех.підтримка</li>
+                                        <li class="dropdown__item" data-value="Співпраця">Співпраця</li>
+                                    </ul>
+                                    <input type="text" name="service" class="dropdown__input" value="">
                                 </div>
-                                <button class="button order connect-button">
+
+                                <button type="submit" class="button order connect-button">
                                     Відправити
                                 </button>
                             </form>
@@ -410,11 +425,29 @@
         </footer>
     </div>
 
+    <!-- <div class="popup-thnx popup" id="popup-thnx">
+        <div class="popup-thnx__body">
+            <div class="popup-thnx__content">
+                <a href="#" class="popup-thnx__close close-popup">
+                    <img src="assets/img/close.png" alt="close">
+                </a>
+                <div class="popup-thnx__title">
+                    Ваша заявка вже у нас!
+                </div>
+                <div class="popup-thnx__text">
+                    Найближчим часом наш спеціаліст зв'яжеться з Вами ;)
+                </div>
+            </div>
+        </div>
+    </div> -->
+
     <script src="assets/js/burger.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/showmore.js"></script>
+    <script src="assets/js/dropdown.js"></script>
+    <!-- <script src="assets/js/modal.js"></script> -->
 </body>
 </html>
